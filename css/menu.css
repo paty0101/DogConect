@@ -1,0 +1,77 @@
+/*--------------Tablet, Celular----------------*/
+@media (min-width:360px){
+#menu-bar {
+     display: none;
+}
+
+header label {
+    float: right;
+    font-size: 28px;/*Darle tamaño al icono del menu*/
+    margin: 6px 0;/*El margen que llevara el icono*/
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;/*Para que empiece el menu desde arriba*/
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background: rgba(48, 40, 46, 0.4);/*rgba(192, 57, 43,0.9);
+(171, 75, 82, 0.9)*/
+    transition: all 0.5s;
+    transform: translateX(-100%); /*El menu se va a la izquierda*/
+    
+}
+ 
+.menu a {
+    display: block;/*sirve para que los elementos esten en linea*/
+    color: #fff;
+    height: 50px;/*Altura entre cada datos*/
+    text-decoration: none;
+    padding: 15px;/*contenedor que tiene el elemento*/
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+x
+    
+}
+
+.menu a:hover { /*Letras de menu: Inicio..*/
+    color: aqua;
+    background: /*rgba(255,255,255,0.3)*/ rgba(38, 32, 30, 0.1);
+        
+}
+
+    
+
+#menu-bar:checked ~ .menu {
+    transform: translateX(0%);
+    
+}
+}
+
+/*-----------Pantalla COMPLETA-------------*/
+@media (min-width:1024px) { /*Al llegar a 1024 px regresa al menu principal*/
+    .menu {
+        position: static;
+        width: 57%;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+		
+        
+    }
+	
+    .menu a {
+        border: none;
+        
+    }
+
+
+	
+	
+    header label{
+        display: none;/*para ocultar el icono del menu*/
+    }
+}
+

@@ -1,0 +1,70 @@
+.form-g-d{
+	height: 20%;
+	background-color: #fff;
+	
+}
+
+.form-group{
+	background-color: #fff;
+	width: 15%;
+}
+
+.section-directorio{
+    width: 100%;/*Anchura del header*/
+    height: 100px; /*Altura de la cabecera*/
+    background: #fff;/*Color para el header*/
+    color: black; /*Cambia color al texto del header*/
+    margin-top: 71px;
+    margin-bottom: -8%;
+	
+    /*position: fixed;Para que quede pegado el header
+    /*top: 0;
+    left: 0;*/
+    z-index: 100;/*Para que este siempre por delante de lo demas*/
+}
+
+.boton{
+	margin-left: 3%;
+}
+hr{
+	background-color: #caccd1;
+	margin-left: -1px;
+	width: 75px;
+	height: 2px!important;
+	
+}
+.section-title-directorio {
+    margin-top: 50px;
+    margin-left: 90px;
+    font-family: 'Cabin', sans-serif;
+    color: grey;
+}
+
+.container-dir{
+	margin-top: -3%;
+    margin-bottom: 10%;
+}
+
+.diseno-table {
+	border-collapse: separate;
+	border-spacing: 65px!important;
+}
+
+
+#avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
+    
+    /* make a square container */
+    width: 180px;
+    height: 180px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}

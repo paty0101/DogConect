@@ -1,0 +1,244 @@
+/*---GUARDALRO POR SI LO OCUPAMOS PARA ADOPCIONES---*/
+/*----SU HOJA DE ESTILO DE ADOPCIONES ES (StyleAdopciones.css)----*/
+
+
+*{ /*--------------------------------header----------------------------*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Para que todo quede en una misma caja*/
+}
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;/*2da parte del primer import*/
+    
+    
+}
+
+header{
+    width: 100%;/*Anchura del header*/
+    height: 8%; /*Altura de la cabecera*/
+    background: #fff;/*Color para el header*/
+    color: pink; /*Cambia color al texto del header*/
+
+    position: fixed;/*Para que quede pegado el header*/
+    top: 0;
+    left: 0;
+    z-index: 100;/*Para que este siempre por delante de lo demas*/
+}
+
+/*.container{
+    margin-top: 5%;
+    margin-bottom: 66em;
+   
+}*/
+.contenedor{
+    width: 100%;
+    margin: 100px;
+    margin-bottom: 10em;
+    
+}
+
+.destacado{
+    color: red;
+}
+
+.centradoperro{ /*Manipula el icono*/
+    margin-top:-0.3%; 
+}
+
+
+.logo2{
+    width: 10%;
+    margin-top: 3%;
+}
+.centrado{ /*Controla el 'DogConect' del header*/
+    margin-top: -0.7%;
+    color: whitesmoke;
+}
+
+h1{
+    float: left;/*Para que el Titulo este flotando del lado izquierdo*/
+}
+
+header .contenedor{
+    display: table;
+}
+section{
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+
+
+.container
+{
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+/*.contenedor_imagen
+{
+    width: 240px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    overflow: visible;
+    margin-bottom: -10px;
+}*/
+
+
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 
+		inset 0 0 0 16px rgba(255,255,255,0.6),
+		0 1px 2px rgba(0,0,0,0.1);
+		
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+/*----DETALLE DE GALERIA 'TITULO'----*/
+.titulo-galeria{
+    font-size: 35px;
+    color: #559692;
+}
+
+/*-Imagenes de caninos-*/
+.ch-img-1 { 
+	background-image: url(../images/1.jpg);
+}
+
+.ch-img-2 { 
+	background-image: url(../images/2.jpg);
+}
+
+.ch-img-3 { 
+	background-image: url(../images/3.jpg);
+}
+
+.ch-img-4 { 
+	background-image: url(../images/4.jpg);
+}
+
+.ch-img-5 { 
+	background-image: url(../images/5.jpg);
+}
+
+.ch-img-6 { 
+	background-image: url(../images/6.jpg);
+}
+
+.ch-img-7 { 
+	background-image: url(../images/7.jpg);
+}
+
+.ch-img-8 { 
+	background-image: url(../images/8.jpg);
+}
+
+.ch-img-9 { 
+	background-image: url(../images/9.jpg);
+}
+
+.ch-img-20 { 
+	background-image: url(../images/cro5.jpg);
+}
+
+
+.ch-info {
+	position: absolute;
+	background: rgba(63,147,147, 0.8);
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	opacity: 0;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	-webkit-backface-visibility: hidden;
+
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin: 0 30px;
+	padding: 45px 0 0 0;
+	height: 140px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #333;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out 0.4s;
+	-moz-transition: all 1s ease-in-out 0.4s;
+	-o-transition: all 1s ease-in-out 0.4s;
+	-ms-transition: all 1s ease-in-out 0.4s;
+	transition: all 1s ease-in-out 0.4s;
+}
+
+.ch-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 29px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.ch-item:hover .ch-info {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.ch-item:hover .ch-info p {
+	opacity: 1;
+}

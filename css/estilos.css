@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');/*Importe de la fuente*/
+@import url(menu.css);
+@import url(banner.css);
+@import url(styleform.css);
+@import url(nosotros.css);
+@import url(StyleAdopciones.css);
+/*@import url(blog.css);*/
+/*@import url(galeria.css);*/
+
+
+
+
+
+*{ /*--------------------------------header----------------------------*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Para que todo quede en una misma caja*/
+}
+
+body{
+    
+    font-family: 'Barlow Condensed', sans-serif;/*2da parte del primer import*/
+    
+}
+
+header{
+    width: 100%;/*Anchura del header*/
+    height: 8%; /*Altura de la cabecera*/
+    background: #2d2d2d;/*Color para el header*/
+    color:white; /*Cambia color al texto del header*/
+    
+    position: fixed;/*Para que quede pegado el header*/
+    top: 0;
+    left: 0;
+    z-index: 100;/*Para que este siempre por delante de lo demas*/
+}
+.container{
+    margin-top: 10%;
+    margin-bottom:10%;
+}
+.contenedor{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10em;
+}
+
+.destacado{
+    color: red;
+}
+
+.centradoperro{ /*Manipula el icono*/
+    margin-top:-0.3%; 
+}
+
+
+.logo2{
+    width: 10%;
+    margin-top: 3%;
+}
+.centrado{ /*Controla el 'DogConect' del header*/
+    margin-top: -0.7%;
+    color: whitesmoke;
+}
+
+h1{
+    float: left;/*Para que el Titulo este flotando del lado izquierdo*/
+}
+
+header .contenedor{
+    display: table;
+}
+section{
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+#bienvenidos {
+    text-align: center;
+}
+
+
+#content-wrapper {
+
+    float: left;
+    margin: 100px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+#main-wrapper {
+    width: 650px;
+    float: left;
+}
+
+
+
+#general
+{
+    position: relative;
+    display: flex; /*Manipula las dimensiones*/
+    margin: auto;
+    margin-top: -50em;/*Margen de la parte superior 'header'*/
+    margin-bottom: 10%;
+    width: 80%; /*Ancho*/+
+    height: 10%; /*Altura*/
+    border-radius: 10px;
+    background: #DCDCDC;
+    background: rgba(34, 30, 30, 0.1);
+    padding: 2em;
+    width: 100%;
+    height: auto;
+}
+
+.article{
+    font-color:black; 
+    box-shadow: 10px 10px 10px #999;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+#reglas{
+    padding: 2em;
+    color: black;
+}
+
+/*--------LOGIN-------*/
+
+
+
+.login-sub{
+	margin-top: 12px;
+	margin-left: 18px;
+}
+
+.menu1 a {
+		margin-top: 70px;
+    	display: inline;
+    	color: #fff;
+    	text-decoration: none;
+    	padding: 13px;/*contenedor que tiene el elemento*/
+    	border-bottom: 2px solid rgba(255,255,255,0.2);
+	
+    
+}
+
+	.menu1 a:hover { /*Letras de menu: Inicio..*/
+    	color: fuchsia;
+    	background: /*rgba(255,255,255,0.3)*/ rgba(38, 32, 30, 0.1);
+        
+}
+
+	.login-diseno{
+		font-size: 13px;
+	
+}
+
+
+/*------NOSOTROS------*/
+
+.contenedor-img{
+    background-image: url( '../img/nosotros.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 389px;
+    margin-top: 4%;
+ 
+}
+.titulo{
+    text-align: center;
+    margin-top: -6%;
+    margin-bottom: 5%;
+    font-size: 16px;
+    color: #050505;
+
+}
+.texto-nosotros{
+    margin-top: 26%;
+    margin-left: 30%;
+    font-size: 18px;
+    color: #d4e7ed;
+}
+hr{
+    margin: 5%;
+}
+.espacio{
+        margin-bottom: 3%;
+}
+
+/*-----DIRECTORIO-----*/
+
+.form-g-d{
+	margin-top: 9%;
+}
+
+/*------FOOTER-------*/
+footer {
+    background: #181818;
+    position: fixed;
+    bottom: -40%;
+    width: 100%;
+    height: 50%;
+    
+
+}
+footer .contenedor{
+    display: flex; /*Capacidad para alterar sus dimensiones*/
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.copy /*copy y nombre que esta en el footer*/{
+    color: whitesmoke;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.sociales /*Iconos, dimension, ubicaicon*/{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: -1.5%;
+    width: 100%; /*usaran 100% de ancho del contenedor*/
+    text-align: center;
+    font-size: 26px;/*Tamaño de iconos*/
+    
+}
+
+.sociales a/*ICONOS*/{
+    color: whitesmoke;
+    text-decoration: none;/*para quitarle lo subrayado */
+    
+}

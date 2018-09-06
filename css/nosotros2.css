@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');/*Importe de la fuente*/
+@import url(menu.css);
+@import url(banner.css);
+@import url(estilos.css);
+
+
+
+*{ /*--------------------------------header----------------------------*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Para que todo quede en una misma caja*/
+}
+
+body{
+    
+     background: #caccd1!important;
+}
+
+.section-nosotros{
+    width: 100%;/*Anchura del header*/
+    height: 150px; /*Altura de la cabecera*/
+    background: #fff;/*Color para el header*/
+    color: black; /*Cambia color al texto del header*/
+    margin-top: 51px;
+    
+    /*position: fixed;Para que quede pegado el header
+    /*top: 0;
+    left: 0;*/
+    z-index: 100;/*Para que este siempre por delante de lo demas*/
+}
+hr{
+	background-color: #caccd1;
+	margin-left: -1px;
+	width: 75px;
+	height: 2px!important;
+	
+}
+.section-title {
+    margin-top: 50px;
+    margin-left: 90px;
+    font-family: 'Cabin', sans-serif;
+    color: grey;
+}
+
+
+.general-nosotros-info{
+    background: #caccd1;
+    padding: 0px;
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: -12%;
+
+}
+
+.left{
+    float: left;
+    padding: 5px;
+    color: #fff;
+    width: 650px;
+    height: 450px;
+    margin: 40px;
+    margin-left: 100px;
+    margin-top: 5%;
+    background: #caccd1;
+}
+.rigth{
+    float: left;
+    padding: 10px;
+    color: #fff;
+    width: 300px;
+    margin: 40px;
+    margin-top: -1%;
+}
+
+
+
+/*-------CARD NOSOTROS-------*/
+.card{
+    height: 480px;
+    width: 200px!important;
+    margin-left: 40px!important;
+    margin-right: 30px!important;
+}
+
+.rounded-circle{
+    display:block!important;
+    margin:auto!important;
+    margin-top: 13px!important;
+}
